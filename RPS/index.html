@@ -1,18 +1,37 @@
-<link href="rpsstyles.css" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+    WEB 2630 Javascript Review
+    By: Amber Jeffers
+    Date: August 30, 2021
+    Filename: index.html
+-->
+    <meta charset="utf-8" />
+    <meta name="keywords" content="web, 2630, weber state, javascript, review, rock, paper, scissors, css, html" />
+    <meta name="author" content="Amber Jeffers">
+    <meta name="description" content="Rock Paper Scissors Game">
+    <title>Rock Paper Scissors Game</title>
+    <link href="rpsstyles.css" rel="stylesheet">
+</head>
 
+<body>
 <div id="gameBox">
-    <h1>Rock, Paper, Scissors</h1>
-    <h3>Best 2 out of 3!</h3>
+    <h1>Rock Paper Scissors</h1>
+
+    <div id="result">
+        <p>Computer wins!</p>
+    </div>
 
     <table width=40%>
         <div id="playerSide">
             <tr>
                 <th width=20%>
-                    Player:
+                    Player: 0
                 </th>
             </tr>
             <tr>
-                <td width=20%>
+                <td width=20% class="choices">
                     <img src="rock.png" alt="rock" class="1"/>
                     <img src="paper.png" alt="paper" class="2"/>
                     <img src="scissors.png" alt="scissors" class="3" />
@@ -23,11 +42,11 @@
         <div id="computerSide">
             <tr>
                 <th width=20%>
-                    Computer:
+                    Computer: 0
                 </th>
             </tr>
             <tr>
-                <td width=20%>
+                <td width=20% class="choices">
                     <img src="rock.png" alt="rock" class="1"/>
                     <img src="paper.png" alt="paper" class="2" />
                     <img src="scissors.png" alt="scissors" class="3" />
@@ -36,3 +55,6 @@
         </div>
     </table>
 </div>
+</body>
+
+</html>

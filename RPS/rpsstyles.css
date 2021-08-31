@@ -1,4 +1,13 @@
 @charset "utf-8";
+ 
+/*
+    WEB 2630 Javascript Review
+    By: Amber Jeffers
+    Date: August 30, 2021
+    Filename: rpsstyles.css
+ 
+*/
+
 
 /* Overall */
 html {
@@ -6,8 +15,8 @@ html {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-div#gamebox {
-    padding-bottom: 200px;
+div#gameBox {
+    margin-bottom: 200px;
 }
 
 /* Header */
@@ -21,8 +30,18 @@ h1 {
 h3 {
     text-align: center;
     color: #F5F1ED;
-    margin-bottom: 75px;
-    font-size: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+/* Result */
+div#result {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 50px;
 }
 
 
@@ -43,12 +62,23 @@ td {
     color: #F5F1ED;
 }
 
+td.choices {
+    text-align: center;
+}
+
 img {
-    display: block;
-    float: left;
+    display: inline-block;
     margin: auto;
     width: 15%;
     height: 15%;
     padding: 20px;
-    padding-left: 12%;
+    margin: 0 20px;
+    border: 2px solid #F5F1ED;
+    border-radius: 20%;
+}
+
+img:hover {
+    cursor: pointer;
+    border: 2px solid red;
+    border-radius: 20%;
 }

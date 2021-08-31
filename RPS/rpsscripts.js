@@ -1,3 +1,14 @@
+"use strict";
+ 
+/*
+   WEB 2630 Javascript Review
+   
+  By: Amber Jeffers
+   Date:   August 30, 2021
+   Filename: rpsscripts.js
+*/
+
+
 // Allow the user to select Rock, Paper, or Scissors
     // Event Listener
     // Highlight Selected
@@ -14,3 +25,5 @@
 // Final Win/Loss Message & Final Score
 
 // Scoreboard
+    // div#playerSide th
+    // div#computerSide th
